@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+}
+
+
+#sidebar {
+	float: left;
+	left: 383px;
+	margin-left: -383px;
+	position: relative;
+	width: 383px;
+	overflow-y: auto;
+    background: #171716 url('../img/background.png') no-repeat;
+}
+
+#wrapper {
+	float: left;
+	width: 100%;
+}
+
+#content {
+	background: #fff;
+	margin-left: 383px;
+}
+
+#header {
+    background: #564f8a;
+    float: left;
+    height: 725px;
+    width: 100%;
+}
+
+    #header h1 {
+        font-size: 72px;
+        margin: 100px auto 0 auto;
+        width: 740px;
+        color: #fff;
+    }
+
+    #header h2 {
+        font-size: 36px;
+        margin: 0 auto;
+        width: 740px;
+        color: #a09cc0;
+        font-weight: normal;
+    }
+
+    #header h3 {
+        font-size: 24px;
+        font-weight: normal;
+        margin: 100px auto 0 auto;
+        width: 740px;
+        color: #fff;
+    }
+
+    #header p {
+        margin: 100px auto 0 auto;
+        width: 740px;
+    }
+
+    #header a {
+        border: 1px solid #fff;
+        padding: 10px 15px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #header a:hover {
+        background: #fff;
+        color: #564f8a;
+    }
+
+
+#social {
+    float: left;
+    width: 100%;
+}
+    #social a {
+        padding: 10px 15px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        text-decoration: none;
+        margin: 0 4px 0 4px;
+        border: 1px solid #fff;
+    }
+
+        #social a.facebook {
+             background: #3c55a3;
+             color: #fff;
+        }
+
+        #social a:hover.facebook {
+             background: #fff;
+             color: #3c55a3;
+             border: 1px solid #3c55a3;
+        }
+
+        #social a.twitter {
+             background: #11aaf3;
+             color: #fff;
+        }
+
+        #social a:hover.twitter {
+             background: #fff;
+             color: #11aaf3;
+             border: 1px solid #11aaf3;
+        }
+
+        #social a.email {
+             background: #99999e;
+             color: #fff;
+        }
+
+        #social a:hover.email {
+             background: #fff;
+             color: #99999e;
+             border: 1px solid #99999e;
+        }
+
+    #social p {
+        margin: 50px auto 0 auto;
+        width: 740px;
+        line-height: 60px;
+    }
+
