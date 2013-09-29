@@ -15,16 +15,15 @@ body {
 
 #body {
     margin:0 auto;
-    background: #564f8a url('../img/background.png') 0 0 no-repeat;
+    background: #564f8a url('../img/backgrgound.png') 0 0 no-repeat;
 	width: 100%;
-    min-height: 725px;
 }
 
 #header {
 	max-width: 940px;
 	min-width: 750px;
+    min-height: 625px;
 	padding: 50px 100px;
-	margin: 0 0 0 383px;
 }
 
     #header h1 {
@@ -116,3 +115,53 @@ body {
         width: 840px;
         line-height: 60px;
     }
+	
+
+
+#bodyproject {
+    margin:0 auto;
+    background: #303030 url('../img/backgrgound.png') 0 0 no-repeat;
+	width: 100%;
+}
+
+
+#header2 {
+	max-width: 940px;
+	padding: 50px 100px;
+}
+
+    #header2 h1 {
+        font-size: 72px;
+        margin: 0 auto 0 auto;
+        color: #fff;
+    }
+
+    #header2 h2 {
+        font-size: 36px;
+        margin: 0 auto;
+        color: #a09cc0;
+        font-weight: normal;
+    }
+	
+	
+#projects {
+	margin: 20px 0 0 0;
+	max-width: 940px;
+	padding: 50px 100px;
+}
+
+    #projects p {
+        color: #fff;
+		color: #99999e;
+    }
+	#projects  ul{
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+	}
+		
+	#projects a {
+		 color: #fff;
+		text-decoration: none;
+		 
+	}
