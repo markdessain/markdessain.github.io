@@ -130,6 +130,7 @@ body {
     margin:0 auto;
     background: #303030 url('../img/backgrgound.png') 0 0 no-repeat;
 	width: 100%;
+        float: left;
 }
 	
 #projects {
@@ -138,18 +139,35 @@ body {
 	padding: 50px 100px;
 }
 
+    #projects strong {
+         color: #fff;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
     #projects p {
         color: #fff;
 		color: #99999e;
+        font-size: 18px;
+        margin: 5px 0 0 0;
     }
+
 	#projects  ul{
-		list-style-type: none;
+        list-style-type:decimal-leading-zero;
+        list-style-position: 0 20px;
 		padding: 0px;
 		margin: 0px;
+        color: #fff;
+        font-size: 40px;
+        float: left;
 	}
+
+    #projects  li{
+        margin: 0 0 60px 70px;
+        float: left;
+    }
 		
 	#projects a {
 		 color: #fff;
 		text-decoration: none;
-		 
 	}
