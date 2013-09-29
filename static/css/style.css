@@ -14,15 +14,14 @@ body {
 }
 
 #body {
-    margin:0 auto;
+    padding: 0 100px;
     background: #564f8a url('../img/backgrgound.png') 0 0 no-repeat;
-	width: 100%;
 }
 
 #header {
     background-repeat: no-repeat;
     background-position: right 150px;
-	width: 1000px;
+	width: 900px;
     margin: 0 auto;
 	padding: 150px 0 50px 0;
 }
