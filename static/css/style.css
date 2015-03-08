@@ -2,6 +2,7 @@ html, body {
     width:100%;
     height:100%;
 }
+
 html {
 	display:table;
 }
@@ -34,7 +35,7 @@ body {
     border-bottom: 1px solid #a09cc0;
     -webkit-border-radius: 10%;
     -moz-border-radius: 10%;
-    background: url('../img/mark.jpeg') 0 0 no-repeat;
+    background: url('../img/mark.jpg') 0 0 no-repeat;
     background-size: 180px;
 }
 
