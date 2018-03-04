@@ -114,10 +114,23 @@ h2 {
   #canvas {
     top: -100px;
   }
+    #container {
+      padding: 0 0 50px 0;
+    }
 
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin: -10px 0 0 0;
+    }
 }
 
 @media screen and (max-width: 640px) {
+
+
 
   .profile {
     float: none;
