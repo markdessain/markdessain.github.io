@@ -1,88 +1,48 @@
-html, body {
-    width:100%;
-    height:100%;
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-html {
-	display:table;
+html, body {
+    width:100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    display:table-cell;
-    vertical-align:middle;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 18px;
 }
 
-#body {
-    padding: 0 100px;
-    background: #564f8a url('../img/backgrgound.png') 0 0 no-repeat;
+#container {
+  margin: 400px 0 0 0;
+  padding: 0 0 200px 0;
+  background: #5941c2;
 }
 
 #header {
-    background-repeat: no-repeat;
-    background-position: right 150px;
-	width: 900px;
-    margin: 0 auto;
-	padding: 150px 0 50px 0;
+  width: 75%;
+  margin: 0 auto 0 auto;
 }
 
-.mark {
-    float: right;
-    width: 180px;
-    height: 180px;
-    border-radius: 10%;
-    border-bottom: 1px solid #a09cc0;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    background: url('https://pbs.twimg.com/profile_images/655112851594436609/56d-zwtZ_400x400.jpg') 0 0 no-repeat;
-    background-size: 180px;
+h1 {
+    font-size: 72px;
+    color: #fff;
 }
 
-#header.hack {
-    background-image: url('../img/hack.png');
+h2 {
+    font-size: 36px;
+    color: #7c89cb;
+    font-weight: normal;
+    margin: -40px 0 0 0;
 }
-    #header h1 {
-        font-size: 72px;
-        margin: 0 auto 0 auto;
-        color: #fff;
-    }
-
-    #header h2 {
-        font-size: 36px;
-        margin: 0 auto;
-        color: #a09cc0;
-        font-weight: normal;
-    }
-
-    #header h3 {
-        font-size: 24px;
-        font-weight: normal;
-        margin: 100px auto 0 auto;
-        color: #fff;
-    }
-
-    #header p {
-        margin: 100px auto 100px auto;
-    }
-
-    #header a {
-        border: 1px solid #fff;
-        padding: 10px 15px;
-        -moz-border-radius: 6px;
-        border-radius: 6px;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    #header a:hover {
-        background: #fff;
-        color: #564f8a;
-    }
 
 #social {
-    float: left;
-    width: 100%;
+  width: 75%;
+  margin: 0 auto 0 auto;
+  padding: 0 0 10px 0;
 }
     #social a {
         padding: 10px 15px;
@@ -127,55 +87,28 @@ body {
         }
 
     #social p {
-        margin: 50px auto 50px auto;
-        width: 840px;
         line-height: 60px;
     }
-	
 
 
-#bodyproject {
-    margin:0 auto;
-    background: #1B1B1B url('../img/backgrgound.png') 0 0 no-repeat;
-	width: 100%;
-        float: left;
+    .profile {
+        float: right;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        background: url('../img/mark.jpg');
+        background-size: 380px;
+        background-position: -100px -100px;
+        margin: 0 0 0 50px;
+    }
+
+@media screen and (max-width: 940px) {
+
+  .profile {
+    float: none;
+    margin: -100px auto 0 auto;
+  }
+
 }
-	
-#projects {
-	margin: 20px auto 0 auto;
-    width: 1000px;
-	padding: 50px 100px;
-}
-
-    #projects strong {
-         color: #fff;
-        font-weight: normal;
-        text-decoration: none;
-    }
-
-    #projects p {
-        color: #fff;
-		color: #99999e;
-        font-size: 18px;
-        margin: 5px 0 0 0;
-    }
-
-	#projects  ul{
-        list-style-type:decimal-leading-zero;
-        list-style-position: 0 20px;
-		padding: 0px;
-		margin: 0px;
-        color: #fff;
-        font-size: 40px;
-        float: left;
-	}
-
-    #projects  li{
-        margin: 0 0 60px 120px;
-        float: left;
-    }
-		
-	#projects a {
-		 color: #fff;
-		text-decoration: none;
-	}
