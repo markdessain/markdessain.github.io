@@ -53,12 +53,12 @@ h2 {
         border: 1px solid #fff;
     }
 
-        #social a.facebook {
+        #social a.messenger {
              background: #3c55a3;
              color: #fff;
         }
 
-        #social a:hover.facebook {
+        #social a:hover.messenger {
              background: #fff;
              color: #3c55a3;
              border: 1px solid #3c55a3;
